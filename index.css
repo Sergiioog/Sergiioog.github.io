@@ -1,0 +1,49 @@
+body {
+    background: rgb(45, 35, 242); 
+    background: linear-gradient(0deg, rgb(14, 78, 157) 0%, rgb(58, 67, 234) 55%, rgb(31, 146, 253) 100%); 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05 rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/*-----SECCIÓN MENU-------*/
+#menu_principal {
+    height: 70%;
+    width: 65%;
+    margin: auto;
+    
+}
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    position: static;
+    
+}
+
+a {
+    text-decoration: none;
+}
+a,li:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* INICIO ICONOS DEL MENÚ*/
+.menu i {
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.3s  ease-in-out;
+}
+
+/* FIN ICONOS DEL MENÚ*/
+/*-----FIN DE SECCIÓN MENÚ------*/
