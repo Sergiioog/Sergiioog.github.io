@@ -120,9 +120,14 @@ a,li:hover {
     justify-content: center;
     align-items: center;
 }
+#redes_sociales a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .socialicon {
-    width: 25%;
-    height: auto;
+    width: 100%;
+    height: 100px;
     max-height: 50%;
     max-width: 50%;
 }
