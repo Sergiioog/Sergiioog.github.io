@@ -11,13 +11,17 @@ body {
    
 }
 
+
+
 /*-----SECCIÓN MENU-------*/
+
 #menu_principal {
     height: 70%;
     width: 65%;
     margin: auto;
     
 }
+
 .menu {
     height: 100%;
     width: 100%;
@@ -32,11 +36,13 @@ body {
 a {
     text-decoration: none;
 }
+
 a,li:hover {
     cursor: pointer;
 }
 
-/* INICIO ICONOS DEL MENÚ*/
+/* ICONOS DEL MENÚ*/
+
 .menu i {
     font-size: 1.4rem;
     margin-left: 10px;
@@ -44,5 +50,27 @@ a,li:hover {
     transition: all 0.3s  ease-in-out;
 }
 
-/* FIN ICONOS DEL MENÚ*/
+/* ICONOS DEL MENÚ*/
+
 /*-----FIN DE SECCIÓN MENÚ------*/
+
+
+/*--------SECCIÓN SOBRE MI---------*/
+
+#sobre_mi {
+    height: 100vh; /*Cambiar a auto*/
+    width: 100%;
+}
+#card_sobre_mi {
+    height: 80vh; /*Cambiar a auto*/
+    width: 90%;
+    margin:auto;
+    margin-top: 5vh; /*Margin top*/
+    border-radius: 10px;
+    background-color: red;
+}
+#foto_sergio {
+    background-color: aqua;
+    height: 50vh;
+    width: 100%;
+}
