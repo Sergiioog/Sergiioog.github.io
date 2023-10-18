@@ -34,7 +34,7 @@ a {
 a,li:hover {
     cursor: pointer;
     transform: translateY(-3px);
-    transition: transform 0.3s ease-in-out; /* Agrega la transición aquí también */
+    transition: transform 0.3s ease-in-out; 
 }
 
 /* INICIO ICONOS DEL MENÚ*/
