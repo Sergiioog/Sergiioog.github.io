@@ -83,9 +83,18 @@ a,li:hover {
     justify-content: center;
     align-items: center;
 }
+#titulo_principal h1 {
+    font-size: 32px;
+}
 #titulo_secundario {
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#titulo_secundario h2 {
+    font-size: 22px;
+}
+#redes_sociales {
+    background-color: aqua;
 }
