@@ -69,7 +69,12 @@ a,li:hover {
     border-radius: 10px;
 }
 #foto_sergio {
-    background-color: rgb(42, 51, 240);
+    background: rgba(5, 28, 89, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1.5px solid rgba(255, 246, 246, 0.837);    
     height: 80vw;
     width: 80vw;
     max-width: 100%;
