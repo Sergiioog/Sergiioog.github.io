@@ -1,13 +1,14 @@
 body {
-    background: rgb(45, 35, 242); 
-    background: linear-gradient(0deg, rgb(14, 78, 157) 0%, rgb(58, 67, 234) 55%, rgb(31, 146, 253) 100%); 
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,14,121,1) 55%, rgba(0,131,255,1) 100%);
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.05 rem;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05 rem;
+   
 }
 
 /*-----SECCIÓN MENU-------*/
@@ -33,8 +34,6 @@ a {
 }
 a,li:hover {
     cursor: pointer;
-    transform: translateY(-3px);
-    transition: transform 0.3s ease-in-out; 
 }
 
 /* INICIO ICONOS DEL MENÚ*/
