@@ -280,16 +280,54 @@ a,li:hover {
     align-items: center;
 }
 .educacion_tarjeta {
+    height: auto; /*CAMBIAR A AUTO*/
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
     background: rgba(252, 251, 251, 0.166);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 12.5px );
     -webkit-backdrop-filter: blur( 12.5px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.277);
-    height: 50vh; /*CAMBIAR A AUTO*/
-    width: 90%;
+
+}
+.time,.position,.institution,.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera {
+    height: 35%;
+    width: 75%;
+    background-color: #f8f9fa;
+}
+.cuerpo {
+    height: auto;
+    width: 80%;
+    text-align: justify;    
+}
+.cabecera,.cuerpo { 
     margin: auto;
-    margin-top: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.time {
+    color: rgb(0, 55, 255);
+    font-weight: bold;
+}
+.position {
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.institution {
+    margin-top: 10px;
+    line-height: 0.8;
+}
+.institution,.place {
+    color:#848f99; 
 }
 
 
