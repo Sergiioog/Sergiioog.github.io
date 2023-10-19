@@ -147,11 +147,14 @@ a,li:hover {
     max-width: 100%;
     max-height: 100%;
 }
+#curriculum_boton {
+    
+}
 /*--------SECCIÓN SOBRE MI---------*/
 
 
 /*--------SECCIÓN EDUCACIÓN--------*/
-#lenguages,#frameworks {
+#lenguages,#frameworks,#control_versiones {
     height: auto; /*CAMBIAR A AUTO*/
     width: 100%;
     margin-top: 20vh;
@@ -226,6 +229,14 @@ a,li:hover {
   }
 
   #frameworks h3 {
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#control_versiones h3 {
     height: 50px;
     width: 100%;
     font-size: 24px;
