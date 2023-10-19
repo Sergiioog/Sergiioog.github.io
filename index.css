@@ -172,6 +172,29 @@ a,li:hover {
 /*--------SECCIÓN SOBRE MI---------*/
 
 
+
+
+
+
+/*--------SECCIÓN PROYECTOS--------*/
+#proyectos {
+    background-color: red;
+    height: 100vh; /*CAMBIAR A AUTO*/
+    width: 100%;
+}
+#proyectos {
+    
+}
+/*--------SECCIÓN PROYECTOS--------*/
+
+
+
+
+
+
+
+
+
 /*--------SECCIÓN EDUCACIÓN--------*/
 #lenguages,#frameworks,#control_versiones {
     height: auto; /*CAMBIAR A AUTO*/
