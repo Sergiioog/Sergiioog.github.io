@@ -251,3 +251,40 @@ a,li:hover {
     justify-content: center;
     align-items: center;
 }
+
+
+/*-------SECCION EDUCACION------*/
+#educacion {
+    height: auto;
+    width: 100%;
+}
+#educacion  h3 {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.educacion_tarjeta {
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    height: 50vh; /*CAMBIAR A AUTO*/
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/*-------SECCION EDUCACION------*/
