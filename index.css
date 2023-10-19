@@ -290,6 +290,8 @@ a,li:hover {
     -webkit-backdrop-filter: blur( 12.5px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.277);
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 
 }
 .time,.position,.institution,.place {
@@ -321,6 +323,7 @@ a,li:hover {
     color: black;
     font-weight: 500;
     margin-top: 5px;
+    text-align: center;
 }
 .institution {
     margin-top: 10px;
@@ -329,6 +332,7 @@ a,li:hover {
 .institution,.place {
     color:#848f99; 
 }
+
 
 
 
