@@ -155,7 +155,19 @@ a,li:hover {
     margin-top: 25px;
 }
 #botonCurriculum {
-    background-color:rgb(134, 134, 229);
+    width: 50%;
+    height: 100%;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+    max-width: 60%;
+    background-color:rgb(88, 171, 243);
+
+}
+#botonCurriculum:hover {
+    background-color: rgb(55, 154, 240);
 }
 /*--------SECCIÓN SOBRE MI---------*/
 
