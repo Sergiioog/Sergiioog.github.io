@@ -190,8 +190,14 @@ a,li:hover {
     width: 20px;
     -webkit-animation: fade-in-bck 1s ease-in-out ;
 	        animation: fade-in-bck 1s ease-in-out ;
-
-}
+            background: rgba(252, 251, 251, 0.166);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 12.5px );
+            -webkit-backdrop-filter: blur( 12.5px );
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.277);
+    padding: 10px;
+        }   
 .container img {
     width: 90%;
     height: 90%;
