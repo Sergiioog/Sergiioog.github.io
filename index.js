@@ -8,7 +8,25 @@ var icono_github = document.querySelector('#gith');
 var icono_linkedin = document.querySelector('#linked');
 var icono_twitter = document.querySelector('#twt');
 
+var botonCurriculum = document.querySelector('#botonCurriculum');
 
+
+function descargarCurriculum() {
+    // URL del archivo PDF existente (sergio.pdf)
+    var pdfUrl = 'assets/images/sergiogarcia.pdf';  // Reemplaza 'ruta/al/sergio.pdf' con la URL correcta del archivo PDF
+
+    // Crear un enlace <a> para descargar el PDF
+    var a = document.createElement('a');
+    a.href = pdfUrl;
+    a.download = 'sergio.pdf'; // Nombre del archivo PDF al descargar
+
+    // Agregar el enlace al documento y hacer clic en él para iniciar la descarga
+    document.body.appendChild(a);
+    a.click();
+
+    // Eliminar el enlace del documento después de la descarga
+    document.body.removeChild(a);
+}
 
 
 

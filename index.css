@@ -148,7 +148,14 @@ a,li:hover {
     max-height: 100%;
 }
 #curriculum_boton {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 25px;
+}
+#botonCurriculum {
+    background-color:rgb(134, 134, 229);
 }
 /*--------SECCIÓN SOBRE MI---------*/
 
