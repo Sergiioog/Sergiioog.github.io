@@ -263,6 +263,7 @@ a,li:hover {
 }
 .botones_live_github button {
     margin-right: 10px;
+    text-decoration: none;
 }
 
 /*--------SECCIÓN PROYECTOS--------*/
