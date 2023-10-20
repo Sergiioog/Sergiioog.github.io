@@ -221,10 +221,15 @@ a,li:hover {
     height: 100%; /* Ajusta la altura al 100% para ocupar el contenedor */
 }
 
-.cuerpo_proy{
+.cuerpo_proy,p {
+    height: 50vh;
+    width: auto;
     margin: 15px;
-    text-align: justify;
 }
+.tituloDiv {
+    font-size: 18px;
+}
+
 /*--------SECCIÓN PROYECTOS--------*/
 
 
