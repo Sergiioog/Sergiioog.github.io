@@ -155,9 +155,84 @@ a,li:hover {
     margin-top: 25px;
 }
 #botonCurriculum {
-    background-color:rgb(134, 134, 229);
+    width: 50%;
+    height: 100%;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+    max-width: 60%;
+    background-color:rgb(88, 171, 243);
+
+}
+#botonCurriculum:hover {
+    background-color: rgb(55, 154, 240);
 }
 /*--------SECCIÓN SOBRE MI---------*/
+
+
+
+
+
+
+/*--------SECCIÓN PROYECTOS--------*/
+#proyectos_seccion{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+#proyectos, h3 {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_proyectos {
+    height: auto; /*CAMBIAR A AUTO*/
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding: 10px;
+}
+.cabecera_proy {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.cabecera_proy img {
+    border-radius: 10px;
+    width: 100%; /* Ajusta el ancho al 100% para ocupar el contenedor */
+    height: 100%; /* Ajusta la altura al 100% para ocupar el contenedor */
+}
+
+.cuerpo_proy{
+    margin: 15px;
+    text-align: justify;
+}
+/*--------SECCIÓN PROYECTOS--------*/
+
+
+
+
+
+
+
 
 
 /*--------SECCIÓN EDUCACIÓN--------*/
@@ -268,17 +343,59 @@ a,li:hover {
     align-items: center;
 }
 .educacion_tarjeta {
+    height: auto; /*CAMBIAR A AUTO*/
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
     background: rgba(252, 251, 251, 0.166);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 12.5px );
     -webkit-backdrop-filter: blur( 12.5px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.277);
-    height: 50vh; /*CAMBIAR A AUTO*/
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+
 }
+.time,.position,.institution,.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera {
+    height: 35%;
+    width: 75%;
+    background-color: #f8f9fa;
+}
+.cuerpo {
+    height: auto;
+    width: 80%;
+    text-align: justify;    
+}
+.cabecera,.cuerpo { 
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.time {
+    color: rgb(0, 55, 255);
+    font-weight: bold;
+}
+.position {
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+}
+.institution {
+    margin-top: 10px;
+    line-height: 0.8;
+}
+.institution,.place {
+    color:#848f99; 
+}
+
 
 
 
