@@ -238,13 +238,14 @@ a,li:hover {
     border-radius: 0.5rem;
     border: none;
     padding: .2rem .2rem;
-    color: blue;
+    color: black;
+    font-weight: 500;
     transition: all .15s ease-in-out;
   }
   
   .radio-inputs .radio input:checked + .name {
     background-color: #fff;
-    font-weight: 900;
+    font-weight: bold;
   }
 /*----SELECT-----*/
 .card_proyectos {

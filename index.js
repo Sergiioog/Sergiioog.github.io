@@ -4,7 +4,7 @@ var icono_persona = document.querySelector('#icono_persona');
 var icono_ordenador = document.querySelector('#icono_ordenador');
 var icono_libro = document.querySelector('#icono_libro');
 var icono_sobre = document.querySelector('#icono_sobre');
-var icono_github = document.querySelector('#icono_github');
+var icono_github = document.querySelector('#icono_gith');
 var icono_linkedin = document.querySelector('#linked');
 var icono_twitter = document.querySelector('#twt');
 
@@ -107,5 +107,9 @@ function subirBajarIconos () {
     
 }
 
-/*Llamada a las funciones*/
-subirBajarIconos();
+document.addEventListener('DOMContentLoaded', function() {
+    /*Llamada a las funciones*/
+    subirBajarIconos();
+})
+
+
