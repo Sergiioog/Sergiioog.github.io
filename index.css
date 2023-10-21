@@ -547,12 +547,37 @@ a,li:hover {
     color:#848f99; 
 }
 
-
-
-
-
-
-
-
-
 /*-------SECCION EDUCACION------*/
+
+
+/*-------SECCION CONTACTO-------*/
+
+#contacto_seccion {
+    height: auto;
+    width: 100%;
+
+}
+#contacto_seccion h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+#formulario {
+    height: 100vh; /*CAMBIAR A AUTO*/
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+    
+
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+}
+
+/*-------SECCION CONTACTO-------*/
