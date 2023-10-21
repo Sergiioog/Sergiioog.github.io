@@ -113,6 +113,7 @@ a,li:hover {
 #titulo_secundario h2 {
     font-size: 22px;
 }
+
 #redes_sociales {
     height: 15%;
     width: 100%;
@@ -248,7 +249,7 @@ a,li:hover {
     font-weight: bold;
   }
 /*----SELECT-----*/
-.card_proyectos {
+.card_proyectos_individual,.card_proyectos_grupal {
     height: auto; /*CAMBIAR A AUTO*/
     width: 90%;
     margin: auto;
