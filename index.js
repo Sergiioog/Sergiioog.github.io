@@ -4,9 +4,10 @@ var icono_persona = document.querySelector('#icono_persona');
 var icono_ordenador = document.querySelector('#icono_ordenador');
 var icono_libro = document.querySelector('#icono_libro');
 var icono_sobre = document.querySelector('#icono_sobre');
-var icono_github = document.querySelector('#icono_gith');
-var icono_linkedin = document.querySelector('#linked');
-var icono_twitter = document.querySelector('#twt');
+
+var icono_github = document.querySelector('#githubicon');
+var icono_linkedin = document.querySelector('#linkedinicon');
+var icono_twitter = document.querySelector('#twittericon');
 
 var botonCurriculum = document.querySelector('#botonCurriculum');
 
@@ -103,12 +104,13 @@ function subirBajarIconos () {
         icono_twitter.style.transform = 'translateY(0)';
     });
 
+  
+
     
     
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    /*Llamada a las funciones*/
     subirBajarIconos();
 })
 
