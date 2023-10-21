@@ -221,9 +221,55 @@ a,li:hover {
     height: 100%; /* Ajusta la altura al 100% para ocupar el contenedor */
 }
 
-.cuerpo_proy{
+.cuerpo_proy {
+    height: auto;
+    width: auto;
     margin: 15px;
+    font-size: 14px;
+}
+.tituloDiv {
+    font-size: 20px;
+}
+.descripcion {
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
     text-align: justify;
+}
+
+.lenguajes_utilizados {
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.iconos {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    max-width: 100%;
+    margin-top: 5px;
+}
+.iconos img {
+    width: 15%;
+    height: 15%;
+    min-width: 15%;
+    max-width: 15%;
+    margin-right: 10px;
+}
+.botones_live_github {
+    margin-top: 20px;
+}
+.botones_live_github button {
+    margin-right: 10px;
+    text-decoration: none;
+}
+.gitBoton{
+    
+}
+.liveBoton {
+
 }
 /*--------SECCIÓN PROYECTOS--------*/
 
