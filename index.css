@@ -256,10 +256,12 @@ a,li:hover {
     margin-bottom: 30px;
 }
 #seccion_individual {
-    background-color: red;
+    height: auto;
+    width: 100%;
 }
 #seccion_grupal {
-    background-color: rgb(0, 255, 8);
+    height: auto;
+    width: 100%;
 }
 .card_individual {
     height: auto;
@@ -300,7 +302,7 @@ a,li:hover {
     font-size: 14px;
 }
 .tituloDiv {
-    font-size: 20px;
+    font-size: 18px;
 }
 .descripcion {
     height: auto;
