@@ -183,13 +183,19 @@ a,li:hover {
     width: 100%;
     margin-top: 20px;
 }
-.agrupacion {
+.agrupacion,.agrupacion_educacion {
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.agrupacion_educacion {
+    margin-top: 20px;
+}
+.agrupacion_educacion .radio-inputs {
+    margin-top: 15px;
 }
 #proyectos, h3 {
     height: 50px;
@@ -255,14 +261,7 @@ a,li:hover {
     width: 100%;
     margin-bottom: 30px;
 }
-#seccion_individual {
-    height: auto;
-    width: 100%;
-}
-#seccion_grupal {
-    height: auto;
-    width: 100%;
-}
+
 .card_individual {
     height: auto;
     width: 90%;
