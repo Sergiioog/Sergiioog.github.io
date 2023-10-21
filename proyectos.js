@@ -9,7 +9,6 @@ function seleccionBoton(evento) {
     var opcionSeleccionada = evento.target.value;
 
     if (opcionSeleccionada === 'individual') {
-        console.log("HOLA");
         seccionIndividual.style.display = 'block';
         seccionGrupal.style.display = 'none';
     } else {
