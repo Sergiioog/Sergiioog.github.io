@@ -182,15 +182,71 @@ a,li:hover {
     width: 100%;
     margin-top: 20px;
 }
+.agrupacion {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #proyectos, h3 {
     height: 50px;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 15px;
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*----SELECT----*/
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 50%;
+    font-size: 14px;
+    height: auto;
+   
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .2rem .2rem;
+    color: blue;
+    transition: all .15s ease-in-out;
+  }
+  
+  .radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 900;
+  }
+/*----SELECT-----*/
 .card_proyectos {
     height: auto; /*CAMBIAR A AUTO*/
     width: 90%;
