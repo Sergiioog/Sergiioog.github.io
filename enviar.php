@@ -18,7 +18,8 @@ $carta .= "Mensaje: $mensaje";
 //Enviando mensaje 
 mail($destinatario,$asunto,$carta);
 
-
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 
 ?>
