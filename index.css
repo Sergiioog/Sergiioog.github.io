@@ -425,14 +425,6 @@ a,li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: transparent;
-    color: transparent;
-    -webkit-text-stroke: 1px #ffffff; /* Borde blanco */
-    background: linear-gradient(to right, #8aafd8, #64abe4, #5aa7f4, #3482db, #014a89);
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-size: 200% 100%;
-    animation: gradientAnimation 10s linear infinite;
 }
 .lang_container {
     height: auto;
@@ -507,8 +499,13 @@ a,li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
+#control_versiones {
+    margin-bottom: 20vh;
+}
 
 /*-------SECCION EDUCACION------*/
 #educacion {
