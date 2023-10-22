@@ -610,10 +610,13 @@ a,li:hover {
     justify-content: center;
     align-items: center;
 }
-.botonSubmit button {
+.botonSubmit input {
     height: 80%;
     width: 50%;
     border-radius: 10px;
     border: none;
+}
+.botonSubmit input:hover {
+    cursor: pointer;
 }
 /*-------SECCION CONTACTO-------*/
