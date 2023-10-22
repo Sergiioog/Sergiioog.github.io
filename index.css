@@ -100,9 +100,31 @@ a,li:hover {
     justify-content: center;
     align-items: center;
 }
-#titulo_principal h1 {
+
+#titulo_principal #tit {
     font-size: 32px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #ffffff; /* Borde blanco */
+    background: linear-gradient(to right, #82a5cd, #6daadf, #2f9bff, #3187d8, #0b77c0, #0d73e9, #2f91ed, #699dc5, #93b9de, #c3d8ec);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 100%;
+    animation: gradientAnimation 10s linear infinite;
 }
+
+
+@keyframes gradientAnimation {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+
 #titulo_secundario {
     height: auto;
     display: flex;
