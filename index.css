@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.05 rem;
+    scroll-behavior: smooth;
    
 }
 
@@ -17,21 +18,27 @@ body {
 
 #menu_principal {
     height: 80%;
-    width: 80%;
+    width: 100%;
+    /*
     margin: auto;
-    
+    padding: 0;
+    margin: 0;*/
+
 }
 
 .menu {
-    height: 100%;
+    height: 8vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8vh;
-    position: static;
+    /*
+    position: fixed;
+    top: 0;
+    z-index: 1;*/
     
 }
+
 
 a {
     text-decoration: none;
@@ -60,6 +67,7 @@ a,li:hover {
 #sobre_mi {
     height: auto; /*Cambiar a auto*/
     width: 100%;
+    /*margin-top: 15vh;*/
 }
 #card_sobre_mi {
     height: 70vh; /*Cambiar a auto*/

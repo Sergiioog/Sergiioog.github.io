@@ -12,19 +12,20 @@
 </head>
 <body>
     
-    <section id="menu_principal">
 
-        <ul class="menu">
-            <li id="icono_persona"><a href="index.html"><i class="bi bi-person" style="color: #e7ecf9;"></i></a></li>
-            <li id="icono_ordenador"><a href="projects.html"><i class="bi bi-laptop" style="color: #e7ecf9;"></i></a></li>             
-            <li id="icono_libro"><a href="education.html"><i class= "bi bi-book" style="color: #e7ecf9;"></i></a></li>     
-            <li id="icono_sobre"><a href="contact.html"><i class="bi bi-envelope" style="color: #e7ecf9;"></i> </a></li>
-        </ul>
-
-    </section>
 
 
     <section id="sobre_mi">
+        <section id="menu_principal">
+
+            <ul class="menu">
+                <li id="icono_persona"><a href="#sobre_mi"><i class="bi bi-person" style="color: #e7ecf9;"></i></a></li>
+                <li id="icono_ordenador"><a href="#proyectos_seccion"><i class="bi bi-laptop" style="color: #e7ecf9;"></i></a></li>             
+                <li id="icono_libro"><a href="#educacion"><i class= "bi bi-book" style="color: #e7ecf9;"></i></a></li>     
+                <li id="icono_sobre"><a href="#contacto_seccion"><i class="bi bi-envelope" style="color: #e7ecf9;"></i> </a></li>
+            </ul>
+    
+        </section>
         <div id="card_sobre_mi">
             <div id="foto_sergio">
                 <img id="sergio" src="assets/images/sergio.png" alt="Sergio image">
@@ -122,9 +123,260 @@
             </figure>
             <figure class="container">
                 <img src="assets/icons/github-svgrepo-com.svg">
-            </figure>
-           
+            </figure>   
         </div>
+    </section>
+
+    <section id="proyectos_seccion">
+        <div class="agrupacion">
+            <h3>PROYECTOS</h3>
+            <div class="radio-inputs">
+                <label class="radio">
+                  <input type="radio" name="radio" value="individual">
+                  <span class="name">Individual</span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="radio" value="grupal">
+                  <span class="name">Grupal</span>
+                </label>
+              </div>
+        </div>
+
+        <section id="seccion_individual">
+
+            <div class="card_individual">
+                <div class="cabecera_proy">
+                    <img src="assets/images/nav.png">
+                </div>
+                <div class="cuerpo_proy">
+                    <div class="tituloDiv">
+                        <h4>NAV HISTORY</h4>
+                    </div>
+                    <div class="descripcion">
+                        <p>Este proyecto muestra la evolución de los navegadores a lo largo de la historia así cómo
+                            las diferencias entre los tipos de desarrollo (front-end y back-end).<br>
+                            Realizado con HTML, CSS y Javascript.
+                        </p>
+                    </div>
+                    <div class="lenguajes_utilizados">
+                        <h4>LENGUAJES</h4>
+                        <div class="iconos">
+                            <img src="assets/icons/html5.svg">
+                            <img src="assets/icons/css-3-svgrepo-com.svg">
+                            <img src="assets/icons/js.svg">
+                        </div>
+                    </div>
+                    <div class="botones_live_github">
+                        <button class="gitBoton"><a href="https://github.com/Sergiioog/nav.github.io">
+                            <i class="bi bi-github" style="color:white;"></i> <span style="color:white;">GitHub</span>
+                        </a></button>
+                        <button class="liveBoton"><a href="https://sergiioog.github.io/nav.github.io/">
+                            <i class="bi bi-rocket" style="color:white;"></i><span style="color:white;">Live</span>          </a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_individual">
+                <div class="cabecera_proy">
+                    <img src="assets/images/formulario.png">
+                </div>
+                <div class="cuerpo_proy">
+                    <div class="tituloDiv">
+                        <h4>GYM FORM</h4>
+                    </div>
+                    <div class="descripcion">
+                        <p>Formulario de registro para nuevos usuarios de un gimnasio muy conocido.
+                            El formulario incluye control de errores en los input para que el usuario no introduzca datos erróneamente. 
+                            Además muestra los datos del usuario en otra página. <br>
+                            Hecho con HTML, CSS y Javascript.                    
+                        </p>
+                    </div>
+                    <div class="lenguajes_utilizados">
+                        <h4>LENGUAJES</h4>
+                        <div class="iconos">
+                            <img src="assets/icons/html5.svg">
+                            <img src="assets/icons/css-3-svgrepo-com.svg">
+                            <img src="assets/icons/js.svg">
+                        </div>
+                    </div>
+                    <div class="botones_live_github">
+                        <button class="gitBoton"><a href="https://github.com/Sergiioog/userlogin.github.io">
+                            <i class="bi bi-github" style="color:white;"></i> <span style="color:white;">GitHub</span>
+                        </a></button>
+                        <button class="liveBoton"><a href="https://sergiioog.github.io/userlogin.github.io/">
+                            <i class="bi bi-rocket" style="color:white;"></i><span style="color:white;">Live</span></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_individual">
+                <div class="cabecera_proy">
+                    <img src="assets/images/todo.png">
+                </div>
+                <div class="cuerpo_proy">
+                    <div class="tituloDiv">
+                        <h4>TO-DO LIST</h4>
+                    </div>
+                    <div class="descripcion">
+                        <p>To-Do List que permite al usuario crear, editar y eliminar tareas para mejorar
+                            su organización. <br>
+                            Todo el proyecto ha sido desarrollado con Angular.               
+                        </p>
+                    </div>
+                    <div class="lenguajes_utilizados">
+                        <h4>LENGUAJES</h4>
+                        <div class="iconos">
+                            <img src="assets/icons/angular.svg">
+                        </div>
+                    </div>
+                    <div class="botones_live_github">
+                        <button class="gitBoton"><a href="https://github.com/Sergiioog/angular-todolist">
+                            <i class="bi bi-github" style="color:white;"></i> <span style="color:white;">GitHub</span>
+                        </a></button>
+                        <!--
+                        <button class="liveBoton"><a href="https://sergiioog.github.io/userlogin.github.io/">
+                            <i class="bi bi-rocket" style="color:white;"></i><span style="color:white;">Live</span></a></button>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="seccion_grupal">
+            <div class="card_individual">
+                <div class="cabecera_proy">
+                    <img src="assets/images/frv.png">
+                </div>
+                <div class="cuerpo_proy">
+                    <div class="tituloDiv">
+                        <h4>FRV GAMES</h4>
+                    </div>
+                    <div class="descripcion">
+                        <p>Este proyecto consistió en la realización de una página web similar a la mítica
+                            página de juegos <a href="https://www.friv.com/" style="color: rgb(21, 150, 236);">Friv Games</a> con la ayuda de mi 
+                            compañero <a href="https://github.com/alvarob27/alvarob27" style="color: rgb(21, 150, 236);">@alvarob27</a>. 
+                            <br>Dicha página contiene tres minijuegos
+                            simples (trivia, ahorcado y puzzle) totalmente funcionales.
+                            <br>Todo hecho con HTML, CSS, Tailwind y JS.            
+                        </p>
+                    </div>
+                    <div class="lenguajes_utilizados">
+                        <h4>LENGUAJES</h4>
+                        <div class="iconos">
+                            <img src="assets/icons/html5.svg">
+                            <img src="assets/icons/css-3-svgrepo-com.svg">
+                            <img src="assets/icons/tailwind.svg">
+                            <img src="assets/icons/js.svg">
+                        </div>
+                    </div>
+                    <div class="botones_live_github">
+                        <button class="gitBoton"><a href="https://github.com/Sergiioog/frvgames.github.io">
+                            <i class="bi bi-github" style="color:white;"></i> <span style="color:white;">GitHub</span>
+                        </a></button>
+                        <button class="liveBoton"><a href="https://sergiioog.github.io/frvgames.github.io/">
+                            <i class="bi bi-rocket" style="color:white;"></i><span style="color:white;">Live</span>          </a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="educacion">    
+        <div class="agrupacion_educacion">
+            <h3>EDUCACION</h3>
+            <div class="radio-inputs">
+                <label class="radio">
+                <input type="radio" name="radio" value="cursos">
+                <span class="name">Cursos</span>
+                </label>
+                <label class="radio">
+                <input type="radio" name="radio" value="certificados">
+                <span class="name">Certificados</span>
+                </label>
+            </div>
+        </div>
+
+
+    
+        
+        <section id="seccion_educ">
+            
+    
+            <div>        
+                <div class="educacion_tarjeta">
+                <div class="cabecera">
+                    <p class="time">2022 - 2024</p>
+                    <p class="position">CFGS Desarrollo de Aplicaciones Web</p>
+                    <p class="institution">U-Tad</p>
+                    <p class="place">Las Rozas, Madrid</p>
+                </div>
+                <div class="cuerpo">
+                    <p>En este Grado Superior aprendí lenguajes cómo HTML, CSS, Java y JavaScript, forjando bases sólidas. Además, estudié a fondo frameworks como Angular o Node.js. 
+                        También, desarrollé habilidades en sistemas informáticos, bases de datos y diseño UX/UI usando herramientas cómo PacketTracer, MySQL y MongoDB junto con Figma. 
+                        Es por esto que adquirí experiencia en la arquitectura de sistemas, gestión eficiente de 
+                        datos y experiencia del usuario en sitios web.</p>
+                </div>
+                
+            </div>
+            <div class="educacion_tarjeta">
+                <div class="cabecera">
+                    <p class="time">2020 - 2022</p>
+                    <p class="position">Bachillerato Social (Bilingüe)</p>
+                    <p class="institution">IES Andrés Laguna</p>
+                    <p class="place">Segovia, Segovia</p>
+                </div>
+                <div class="cuerpo">
+                    <p>En el bachillerato social, desarrollé habilidades esenciales. Aprendí a gestionar el tiempo, hablar en público con confianza y liderar equipos. Estas competencias me han 
+                        preparado para desafíos reales y para colaborar efectivamente en cualquier entorno.</p>
+                </div>
+            </div>
+        </div>
+        </section> 
+
+
+
+        <section id="seccion_certificados">
+            <div class="educacion_tarjeta">
+                <div class="cabecera">
+                        <p class="time">2021-2022</p>
+                        <p class="position">Cambridge First Certificate (B2)</p>
+                        <p class="institution">EuroLingua</p>
+                        <p class="place">Segovia, Segovia</p>
+                    </div>
+                    <div class="cuerpo">
+                        <p>Obtener el First Certificate of English de Cambridge fue un paso crucial en mi desarrollo lingüístico. Esta certificación mejoró 
+                            significativamente mi fluidez y precisión en inglés.</p>
+                    </div>
+                </div>
+        </section>
+    
+    </section>
+
+    <section id="contacto_seccion">
+        <h3>TRABAJEMOS JUNTOS</h3>
+        <form id="formulario" action="enviar.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Primer Apellido:</label>
+                <input type="text" id="apellido" name="apellido" >
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="botonSubmit">
+                <input type="submit" value="Enviar">
+            </div>
+            
+        </form>
     </section>
 
 </body>
