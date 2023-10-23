@@ -1,5 +1,4 @@
-
-/*Variables del programa*/
+/Variables del programa/
 var icono_persona = document.querySelector('#icono_persona');
 var icono_ordenador = document.querySelector('#icono_ordenador');
 var icono_libro = document.querySelector('#icono_libro');
@@ -11,15 +10,6 @@ var icono_twitter = document.querySelector('#twittericon');
 
 var botonCurriculum = document.querySelector('#botonCurriculum');
 
-var seccionIndividual = document.querySelector('#seccion_individual');
-var seccionGrupal = document.querySelector('#seccion_grupal');
-
-var radiobuttons = document.querySelectorAll('input[type=radio]');
-
-var seccionEducacion = document.querySelector('#seccion_educ');
-var seccionCertificados = document.querySelector('#seccion_certificados');
-
-var radiobuttons = document.querySelectorAll('input[type=radio]');
 
 function descargarCurriculum() {
     // URL del archivo PDF existente (sergio.pdf)
@@ -40,7 +30,7 @@ function descargarCurriculum() {
 
 
 
-/*Funciones manejadora de eventos de iconos*/ 
+/Funciones manejadora de eventos de iconos/ 
 function subirBajarIconos () {
     icono_persona.addEventListener('mouseenter', function() {
         icono_persona.style.transition = 'transform 0.3s ease-in-out';
@@ -119,44 +109,6 @@ function subirBajarIconos () {
     
 }
 
-
-
-
-
-function seleccionBotonIndividual(evento) {
-    var opcionSeleccionada = evento.target.value;
-
-    if (opcionSeleccionada === 'individual') {
-        seccionIndividual.style.display = 'block';
-        seccionGrupal.style.display = 'none';
-    } else {
-        seccionIndividual.style.display = 'none';
-        seccionGrupal.style.display = 'block';
-    }
-}
-
-for (var i = 0; i < radiobuttons.length; i++) {
-    radiobuttons[i].addEventListener('click', seleccionBotonIndividual);
-}
-
-function seleccionBotonEducacion(evento) {
-    var opcionSeleccionada = evento.target.value;
-
-    if (opcionSeleccionada === 'cursos') {
-        seccionEducacion.style.display = 'block';
-        seccionCertificados.style.display = 'none';
-    } else {
-        seccionEducacion.style.display = 'none';
-        seccionCertificados.style.display = 'block';
-    }
-}
-
-for (var i = 0; i < radiobuttons.length; i++) {
-    radiobuttons[i].addEventListener('click', seleccionBotonEducacion);
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     subirBajarIconos();
-});
-
-
+})
