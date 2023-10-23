@@ -103,11 +103,27 @@ function subirBajarIconos () {
         icono_twitter.style.transform = 'translateY(0)';
     });
 
-  
-
-    
-    
 }
+function checkVisibility() {
+    var containers = document.querySelectorAll('.container');
+    var windowHeight = window.innerHeight;
+
+    containers.forEach(function(container) {
+        var positionFromTop = container.getBoundingClientRect().top;
+
+        if (positionFromTop - windowHeight <= 0) {
+            container.classList.add('appear');
+        } else {
+            container.classList.remove('appear');
+        }
+    });
+}
+
+// Llama a la función checkVisibility al cargar la página y al hacer scroll
+document.addEventListener("DOMContentLoaded", checkVisibility);
+document.addEventListener("scroll", checkVisibility);
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
     subirBajarIconos();
