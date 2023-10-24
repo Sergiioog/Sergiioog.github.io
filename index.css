@@ -67,7 +67,7 @@ a,li:hover {
     /*margin-top: 15vh;*/
 }
 #card_sobre_mi {
-    height: 70vh; /*Cambiar a auto*/
+    height: auto; /*Cambiar a auto*/
     width: 90%;
     margin:auto;
     margin-top: 5vh; /*Margin top*/
@@ -151,9 +151,6 @@ a,li:hover {
     margin-right: 10px;
 }
 #card_about {
-    word-spacing: 0px;
-    word-break: break-all;
-
     height: auto;
     width: 90%;
     margin: auto;
@@ -259,15 +256,15 @@ a,li:hover {
     height: auto;
     width: 20px;
     -webkit-animation: fade-in-bck 1s ease-in-out ;
-	        animation: fade-in-bck 1s ease-in-out ;
-            background: rgba(252, 251, 251, 0.166);
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 12.5px );
-            -webkit-backdrop-filter: blur( 12.5px );
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.277);
+	animation: fade-in-bck 1s ease-in-out ;
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
     padding: 10px;
-        }   
+}   
 .container img {
     width: 90%;
     height: 90%;
@@ -423,7 +420,7 @@ a,li:hover {
     height: auto;
     width: 90%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 30px; 
     background: rgba(252, 251, 251, 0.166);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 12.5px );
@@ -589,7 +586,6 @@ a,li:hover {
 
 /*--------SECCIÓN EDUCACIÓN--------*/
 
-<<<<<<< HEAD
 .container {
     /* Tu estilo CSS existente para .container */
     flex-basis: 100%;
@@ -650,11 +646,11 @@ a,li:hover {
     visibility: hidden;
     width: 120px;
     background-color: rgba(252, 251, 251, 0.166);
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 12.5px );
-            -webkit-backdrop-filter: blur( 12.5px );
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.277);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
     font-weight: 500;
     text-align: center;
     border-radius: 6px;
@@ -724,8 +720,7 @@ a,li:hover {
 #control_versiones {
     margin-bottom: 20vh;
 }
-=======
->>>>>>> windows_branch
+
 
 /*-------SECCION EDUCACION------*/
 #educacion {
@@ -871,7 +866,7 @@ a,li:hover {
 
 
 
-/*Media Query Moviles M*/
+/*Media Query Moviles M
 @media screen and (min-width: 375px) and (max-width:425px) { 
     #titulo_principal #tit  {
         font-size: 2.2rem;
@@ -890,8 +885,7 @@ a,li:hover {
     }
     #card_about p {
         font-size: 1rem;
-        word-spacing: -1px;
-        word-break: break-all;
+   
     }
 
     #ilustracion_sergio {
@@ -903,5 +897,284 @@ a,li:hover {
         justify-content: center;
         align-items: center;
     }
-}
+}*/
 
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+
+    /* ICONOS DEL MENÚ*/
+
+    .menu i {
+        font-size: 1.8rem;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition: all 0.3s  ease-in-out;
+    }
+
+    /* ICONOS DEL MENÚ*/
+
+
+
+
+    /*--------SECCIÓN SOBRE MI---------*/
+
+    #card_sobre_mi {
+        height: auto; /*Cambiar a auto*/
+        width: 90%;
+        margin:auto;
+        margin-top: 5vh; /*Margin top*/
+        border-radius: 10px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    #foto_sergio {
+        background: rgba(5, 28, 89, 0.4);
+        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1.5px solid rgba(255, 246, 246, 0.837);    
+        height: auto;
+        background-color: #0b77c0;
+        width: 60%;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #divText {
+        background-color: #2a2828;
+        width: 40%;
+    }
+    #sergio {
+        max-width: 80%;
+        height: auto; 
+        object-fit: cover; 
+        object-position: center center; 
+    }
+    #titulo_principal {
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #titulo_principal #tit {
+        font-size: 32px;
+        color: transparent;
+        -webkit-text-stroke: 0.3px #ffffff; /* Borde blanco */
+        background: linear-gradient(to right, #82a5cd, #6daadf, #2f9bff, #3187d8, #0b77c0, #0d73e9, #2f91ed, #699dc5, #93b9de, #c3d8ec);
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 200% 100%;
+        animation: gradientAnimation 10s linear infinite;
+    }
+
+
+    @keyframes gradientAnimation {
+        0%, 100% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
+    #titulo_secundario {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #titulo_secundario #tit2 {
+        font-size: 22px;
+    }
+    #redes_sociales {
+        height: 15%;
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socialicon {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #card_about {
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-top: 50vh;
+        padding: 20px;
+        text-align: justify;
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    
+    }
+    #ilustracion_sergio {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #curriculum_boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+
+    #botonCurriculum {
+        width: auto;
+        height: 100%;
+        color: white;
+        text-decoration: underline;
+        font-weight: bold;
+        border-radius: 10px;
+        max-width: 60%;
+        border: none;
+        color: #fff;
+        background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+        border-radius: 20px;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: 14px;
+        padding: 0.6em 1.5em;
+        cursor: pointer;
+
+    }
+    #botonCurriculum:hover {
+        background-position: right center;
+        background-size: 200% auto;
+        -webkit-animation: pulse 2s infinite;
+        animation: pulse512 1.5s infinite;
+        cursor: pointer;
+    }
+    
+    @keyframes pulse512 {
+        0% {
+        box-shadow: 0 0 0 0 #05bada66;
+        }
+    
+        70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+        }
+    
+        100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+        }
+    }
+
+    #lenguages,#frameworks,#control_versiones {
+        height: auto; /*CAMBIAR A AUTO*/
+        width: 100%;
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #lenguages h3 {
+        height: 50px;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lang_container {
+        height: auto;
+        width: 90%;
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Espaciado uniforme entre elementos */
+        cursor: pointer;
+    }
+
+    .container {
+        flex-basis: 100%;
+        flex-grow: 1; 
+        max-width: 110px; 
+        max-height: 110px;
+        margin: 10px; 
+        height: auto;
+        width: 20px;
+        -webkit-animation: fade-in-bck 1s ease-in-out ;
+        animation: fade-in-bck 1s ease-in-out ;
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+        padding: 10px;
+    }   
+    .container img {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+    @-webkit-keyframes fade-in-bck {
+        0% {
+        -webkit-transform: translateZ(80px);
+                transform: translateZ(80px);
+        opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+        }
+    }
+    @keyframes fade-in-bck {
+        0% {
+        -webkit-transform: translateZ(80px);
+                transform: translateZ(80px);
+        opacity: 0;
+        }
+        100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+        }
+    }
+
+    #frameworks h3 {
+        height: 50px;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #control_versiones h3 {
+        height: 50px;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #control_versiones {
+        margin-bottom: 20vh;
+    }
+}
