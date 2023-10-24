@@ -988,8 +988,42 @@ a,li:hover {
     #botonCurriculum {
         font-size: 1rem;
      }
-    #lenguages h3, #frameworks h3, #control_versiones h3 {
+    #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3 {
         font-size: 1.8rem;
     }
     
+    /*--------SECCIÓN SOBRE MI---------*/
+
+    /*-------SECCION CONTACTO-------*/
+
+    #contacto_seccion {
+        width: 75%;
+        margin: auto;
+    }
+    #formulario {
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 40px;
+    }
+    .form-group {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        margin-bottom: 5px;
+    }
+    
+    .botonSubmit input {
+        height: 90%;
+        width: 40%;
+        margin-top: 20px;
+
+    }
+    .botonSubmit input:hover {
+        cursor: pointer;
+    }
+    /*-------SECCION CONTACTO-------*/
+
 }
