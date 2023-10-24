@@ -151,6 +151,9 @@ a,li:hover {
     margin-right: 10px;
 }
 #card_about {
+    word-spacing: 0px;
+    word-break: break-all;
+
     height: auto;
     width: 90%;
     margin: auto;
@@ -656,3 +659,40 @@ a,li:hover {
     cursor: pointer;
 }
 /*-------SECCION CONTACTO-------*/
+
+
+
+/*Media Query Moviles M*/
+@media screen and (min-width: 375px) and (max-width:425px) { 
+    #titulo_principal #tit  {
+        font-size: 2.2rem;
+    }
+    #titulo_secundario #tit2 {
+        font-size: 1.5rem;
+    }
+   
+    .socialicon {
+        font-size: 32px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #card_about {
+        width: 85%;
+    }
+    #card_about p {
+        font-size: 1rem;
+        word-spacing: -1px;
+        word-break: break-all;
+    }
+
+    #ilustracion_sergio {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
