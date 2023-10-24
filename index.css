@@ -905,7 +905,7 @@ a,li:hover {
     /* ICONOS DEL MENÚ*/
 
     .menu i {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-left: 15px;
         margin-right: 15px;
         transition: all 0.3s  ease-in-out;
@@ -924,91 +924,50 @@ a,li:hover {
         margin:auto;
         margin-top: 5vh; /*Margin top*/
         border-radius: 10px;
-        background-color: red;
         display: flex;
         justify-content: center;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     #foto_sergio {
         background: rgba(5, 28, 89, 0.4);
         box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
-        backdrop-filter: blur( 12.5px );
-        -webkit-backdrop-filter: blur( 12.5px );
-        border-radius: 10px;
-        border: 1.5px solid rgba(255, 246, 246, 0.837);    
-        height: auto;
-        background-color: #0b77c0;
-        width: 60%;
+        backdrop-filter: blur(12.5px);
+        -webkit-backdrop-filter: blur(12.5px);
+        border: 1.5px solid rgba(255, 246, 246, 0.837);
+        background: rgba(5, 28, 89, 0.4);
+        width: 45vh; /* Establece el ancho y el alto iguales */
+        height: 45vh; /* Establece el ancho y el alto iguales */
         max-width: 100%;
         max-height: 100%;
-        border-radius: 50%;
+        border-radius: 50%; /* Hace que el contenedor sea un círculo */
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
     }
+    
     #divText {
-        background-color: #2a2828;
         width: 40%;
-    }
-    #sergio {
-        max-width: 80%;
-        height: auto; 
-        object-fit: cover; 
-        object-position: center center; 
-    }
-    #titulo_principal {
         height: auto;
-        margin-top: 30px;
         display: flex;
+        margin-left: 5%;
+        text-align: center;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     #titulo_principal #tit {
-        font-size: 32px;
-        color: transparent;
-        -webkit-text-stroke: 0.3px #ffffff; /* Borde blanco */
-        background: linear-gradient(to right, #82a5cd, #6daadf, #2f9bff, #3187d8, #0b77c0, #0d73e9, #2f91ed, #699dc5, #93b9de, #c3d8ec);
-        -webkit-background-clip: text;
-        background-clip: text;
-        background-size: 200% 100%;
-        animation: gradientAnimation 10s linear infinite;
-    }
-
-
-    @keyframes gradientAnimation {
-        0%, 100% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-    }
-
-    #titulo_secundario {
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
+        font-size: 2.6rem;
     }
     #titulo_secundario #tit2 {
-        font-size: 22px;
-    }
-    #redes_sociales {
-        height: 15%;
-        width: 100%;
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 1.6rem;
     }
     .socialicon {
-        font-size: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
+        font-size: 35px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     #card_about {
         height: auto;
