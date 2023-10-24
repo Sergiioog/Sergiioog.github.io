@@ -922,7 +922,7 @@ a,li:hover {
         height: auto; /*Cambiar a auto*/
         width: 90%;
         margin:auto;
-        margin-top: 5vh; /*Margin top*/
+        margin-top: 10vh; /*Margin top*/
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -970,170 +970,26 @@ a,li:hover {
         margin-right: 15px;
     }
     #card_about {
-        height: auto;
-        width: 90%;
-        margin: auto;
+        width: 85%;
         margin-top: 50vh;
-        padding: 20px;
-        text-align: justify;
-        background: rgba(252, 251, 251, 0.166);
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 12.5px );
-        -webkit-backdrop-filter: blur( 12.5px );
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.277);
-    
+        padding: 30px;
+        font-size: 1.1rem;
     }
     #ilustracion_sergio {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    #curriculum_boton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        margin-top: 25px;
+        width: 60%;
+        height: 60%;
+        margin: auto;
+        margin-top: 20px;
     }
 
     #botonCurriculum {
-        width: auto;
-        height: 100%;
-        color: white;
-        text-decoration: underline;
-        font-weight: bold;
-        border-radius: 10px;
-        max-width: 60%;
-        border: none;
-        color: #fff;
-        background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
-        border-radius: 20px;
-        background-size: 100% auto;
-        font-family: inherit;
-        font-size: 14px;
-        padding: 0.6em 1.5em;
-        cursor: pointer;
-
+       font-size: 1rem;
     }
-    #botonCurriculum:hover {
-        background-position: right center;
-        background-size: 200% auto;
-        -webkit-animation: pulse 2s infinite;
-        animation: pulse512 1.5s infinite;
-        cursor: pointer;
+    #botonCurriculum {
+        font-size: 1rem;
+     }
+    #lenguages h3, #frameworks h3, #control_versiones h3 {
+        font-size: 1.8rem;
     }
     
-    @keyframes pulse512 {
-        0% {
-        box-shadow: 0 0 0 0 #05bada66;
-        }
-    
-        70% {
-        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
-        }
-    
-        100% {
-        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
-        }
-    }
-
-    #lenguages,#frameworks,#control_versiones {
-        height: auto; /*CAMBIAR A AUTO*/
-        width: 100%;
-        margin-top: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    #lenguages h3 {
-        height: 50px;
-        width: 100%;
-        font-size: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .lang_container {
-        height: auto;
-        width: 90%;
-        margin-top: 5vh;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around; /* Espaciado uniforme entre elementos */
-        cursor: pointer;
-    }
-
-    .container {
-        flex-basis: 100%;
-        flex-grow: 1; 
-        max-width: 110px; 
-        max-height: 110px;
-        margin: 10px; 
-        height: auto;
-        width: 20px;
-        -webkit-animation: fade-in-bck 1s ease-in-out ;
-        animation: fade-in-bck 1s ease-in-out ;
-        background: rgba(252, 251, 251, 0.166);
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 12.5px );
-        -webkit-backdrop-filter: blur( 12.5px );
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.277);
-        padding: 10px;
-    }   
-    .container img {
-        width: 90%;
-        height: 90%;
-        margin: auto;
-    }
-    @-webkit-keyframes fade-in-bck {
-        0% {
-        -webkit-transform: translateZ(80px);
-                transform: translateZ(80px);
-        opacity: 0;
-        }
-        100% {
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
-        opacity: 1;
-        }
-    }
-    @keyframes fade-in-bck {
-        0% {
-        -webkit-transform: translateZ(80px);
-                transform: translateZ(80px);
-        opacity: 0;
-        }
-        100% {
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
-        opacity: 1;
-        }
-    }
-
-    #frameworks h3 {
-        height: 50px;
-        width: 100%;
-        font-size: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #control_versiones h3 {
-        height: 50px;
-        width: 100%;
-        font-size: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    #control_versiones {
-        margin-bottom: 20vh;
-    }
 }
