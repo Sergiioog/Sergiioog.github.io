@@ -988,7 +988,7 @@ a,li:hover {
     #botonCurriculum {
         font-size: 1rem;
      }
-    #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3 {
+    #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3 {
         font-size: 1.8rem;
     }
     
@@ -1002,255 +1002,65 @@ a,li:hover {
     #proyectos, h3 {
         font-size: 1.8rem;
     }
-    /*----SELECT----*/
-  
-
-    /*----SELECT----*/
-.radio-inputs {
-    width: 35%;
-    font-size: 18px; 
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 0.5rem;
-    background: rgba(252, 251, 251, 0.166);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.277);
-    box-sizing: border-box;
-    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
-    padding: 0.25rem;
-    height: auto;
-   
-  }
-  
-  .radio-inputs .radio {
-    flex: 1 1 auto;
-    text-align: center;
-  }
-  
-  .radio-inputs .radio input {
-    display: none;
-  }
-  
-  .radio-inputs .radio .name {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    border: none;
-    padding: .2rem .2rem;
-    color: black;
-    font-weight: 500;
-    transition: all .15s ease-in-out;
-  }
-  
-  .radio-inputs .radio input:checked + .name {
-    background-color: #fff;
-    font-weight: bold;
-  }
-/*----SELECT-----*/
-    /*----SELECT-----*/
-
-    #seccion_individual,#seccion_grupal {
-        background-color: red;
+    .radio-inputs {
+        width: 30%;
+        font-size: 18px; 
+        
+    
     }
-    #seccion_individual,#seccion_grupal {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Crea columnas de al menos 300px de ancho */
-        gap: 20px; /* Espacio entre las tarjetas */
-        justify-content: space-around; /* Centra el grid horizontalmente */
-        align-items: center; /* Centra el grid verticalmente */
-        cursor: pointer;
+    .card_individual, .educacion_tarjeta  {
+        width: 50%;
     }
     
-    .card_individual,.card_grupal {
-        height: auto;
-        width: 100%; /* Las tarjetas ocuparán el 100% del ancho de su contenedor */
-        margin-top: 30px;
-        box-sizing: border-box; /* Incluye el padding y el borde en el ancho total de la tarjeta */
-    }
     
-
-
-
-    .cabecera_proy {
-        width: 90%;
-        height: 100%;
-        margin: auto;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-        margin-top: 15px;
-    }
-
-    .cabecera_proy img {
-        border-radius: 10px;
-        width: 100%; /* Ajusta el ancho al 100% para ocupar el contenedor */
-        height: 100%; /* Ajusta la altura al 100% para ocupar el contenedor */
-    }
-
     .cuerpo_proy {
-        height: auto;
-        width: auto;
-        margin: 15px;
-        font-size: 14px;
+        font-size: 0.9rem;
     }
     .tituloDiv {
-        font-size: 18px;
-    }
-    .descripcion {
-        height: auto;
-        width: 100%;
-        margin-top: 5px;
-        text-align: justify;
-    }
-
-    .lenguajes_utilizados {
-        height: auto;
-        width: auto;
-        margin-top: 10px;
-        font-weight: bold;
-    }
-    .iconos {
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: start;
-        max-width: 100%;
-        margin-top: 5px;
-    }
-    .iconos img {
-        width: 15%;
-        height: 15%;
-        min-width: 15%;
-        max-width: 15%;
-        margin-right: 10px;
-    }
-    .iconos img:hover {
-        -webkit-animation: heartbeat 5s ease-in-out infinite forwards;
-                animation: heartbeat 5s ease-in-out infinite forwards;
-    }
-    @-webkit-keyframes heartbeat {
-        from {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-transform-origin: center center;
-                transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-        10% {
-        -webkit-transform: scale(0.91);
-                transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-        }
-        17% {
-        -webkit-transform: scale(0.98);
-                transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-        33% {
-        -webkit-transform: scale(0.87);
-                transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-        }
-        45% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-    }
-    @keyframes heartbeat {
-        from {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-transform-origin: center center;
-                transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-        10% {
-        -webkit-transform: scale(0.91);
-                transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-        }
-        17% {
-        -webkit-transform: scale(0.98);
-                transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-        33% {
-        -webkit-transform: scale(0.87);
-                transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-        }
-        45% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        }
-    }
-
-    .botones_live_github button {
-        height: 40px;
-        width: auto;
-        border-radius: 10px;
-        margin-top: 20px;
-        margin-right: 10px;
-        text-decoration: none;
-        background-color: #333;
-        border: none;
-        font-size: 14px;
-    }
-    .botones_live_github button:hover {
-        background-color: #2a2828;
-        cursor: pointer;
-    }
-
-/*--------SECCIÓN PROYECTOS--------*/
-
-    /*-------SECCION CONTACTO-------*/
-
-    #contacto_seccion {
-        width: 75%;
-        margin: auto;
-    }
-    #formulario {
-        width: 80%;
-        margin: auto;
-        margin-top: 25px;
-        padding: 40px;
-    }
-    .form-group {
-        width: 95%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .form-group label {
-        margin-bottom: 5px;
+        font-size: 1.2rem;
     }
     
-    .botonSubmit input {
-        height: 90%;
-        width: 40%;
-        margin-top: 20px;
-
+    .lenguajes_utilizados h4 {
+        font-size: 1rem;
     }
-    .botonSubmit input:hover {
-        cursor: pointer;
+    
+    .iconos img {
+        width: 13%;
+        height: 13%;
+        min-width: 13%;
+        max-width: 13%;
+        margin-right: 10px;
     }
-    /*-------SECCION CONTACTO-------*/
+   
+    
+    .botones_live_github button {
+        height: 40px;
+        width: 80px;
+        font-size: 0.9rem;
+    }
+    /*----SECCION PROYECTOS----*/
+   
+    /*----SECCION EDUCACION----*/
+    .cabecera {
+        height: 35%;
+        width: 75%;
+        background-color: #f8f9fa;
+    }
+    .cuerpo {
+        font-size: 1.1rem;
+    }
+    .time {
+        font-size: 1.1rem;
+    }
+    .position {
+        font-size: 1.1rem;
+    }
+    .institution {
+        font-size: 1.05rem;
+    }
+    .institution,.place {
+        font-size: 1.05rem;
+    }
+    /*----SECCION EDUCACION----*/
 
 }
