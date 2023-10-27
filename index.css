@@ -918,7 +918,7 @@ a,li:hover {
 }
 
 #titulo_principal #tit {
-    font-size: 32px;
+    font-size: 2.5rem;
     color: transparent;
     -webkit-text-stroke: 0.3px #ffffff; /* Borde blanco */
     background: linear-gradient(to right, #82a5cd, #6daadf, #2f9bff, #3187d8, #0b77c0, #0d73e9, #2f91ed, #699dc5, #93b9de, #c3d8ec);
@@ -929,15 +929,6 @@ a,li:hover {
 }
 
 
-@keyframes gradientAnimation {
-    0%, 100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-}
-
 #titulo_secundario {
     height: auto;
     display: flex;
@@ -946,24 +937,24 @@ a,li:hover {
     margin-top: 10px;
 }
 #titulo_secundario #tit2 {
-    font-size: 22px;
+    font-size: 1.6rem;
 }
 #redes_sociales {
     height: 15%;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .socialicon {
-    font-size: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #card_about {
     height: auto;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 50vh;
     padding: 20px;
@@ -979,57 +970,13 @@ a,li:hover {
 #ilustracion_sergio {
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-#curriculum_boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    margin-top: 25px;
-}
-
-#botonCurriculum {
-    width: auto;
-    height: 100%;
-    color: white;
-    text-decoration: underline;
-    font-weight: bold;
-    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
     max-width: 60%;
-    border: none;
-    color: #fff;
-    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
-    border-radius: 20px;
-    background-size: 100% auto;
-    font-family: inherit;
-    font-size: 14px;
-    padding: 0.6em 1.5em;
-    cursor: pointer;
-
+    max-height: 60%;
 }
-#botonCurriculum:hover {
-    background-position: right center;
-    background-size: 200% auto;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
-    cursor: pointer;
-   }
-   
-   @keyframes pulse512 {
-    0% {
-     box-shadow: 0 0 0 0 #05bada66;
-    }
-   
-    70% {
-     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
-    }
-   
-    100% {
-     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
-    }
-   }
+
+
 
    #lenguages,#frameworks,#control_versiones {
     height: auto; /*CAMBIAR A AUTO*/
@@ -1039,7 +986,7 @@ a,li:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+}/*SEGUIR AQUI*/
 #lenguages h3 {
     height: 50px;
     width: 100%;
