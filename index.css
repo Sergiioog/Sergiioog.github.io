@@ -895,9 +895,15 @@ a,li:hover {
         max-height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
     }
 }*/
+
+
+
+@media screen and (min-width:425px) and (max-width:768px) {
+
+}
 
 @media screen and (min-width:768px) and (max-width:1024px) {
     
