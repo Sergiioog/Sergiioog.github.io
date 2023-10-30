@@ -9,6 +9,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.05 rem;
     scroll-behavior: smooth;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
    
 }
 
@@ -335,7 +341,6 @@ a,li:hover {
 #proyectos_seccion{
     height: auto;
     width: 100%;
-    margin-top: 20px;
 }
 .agrupacion,.agrupacion_educacion {
     height: auto;
@@ -1701,8 +1706,8 @@ a,li:hover {
         font-size: 1.1rem;
     }
     #ilustracion_sergio {
-        width: 60%;
-        height: 60%;
+        width: 40%;
+        height: 40%;
         margin: auto;
         margin-top: 20px;
     }
@@ -1806,7 +1811,7 @@ a,li:hover {
         background-color: #f8f9fa;
     }
     .cuerpo {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .time {
         font-size: 1.1rem;
@@ -1821,44 +1826,6 @@ a,li:hover {
         font-size: 1.05rem;
     }
     /*----SECCION EDUCACION----*/
-    /*-------SECCION CONTACTO-------*/
-
-    #formulario {
-        width: 60%;
-    }
-    .form-group label {
-        margin-bottom: 5px;
-        font-size: 1rem;
-    }
-    .form-group input {
-        height: 35px;
-        padding: 10px;
-        width: 100%;
-        border-radius: 10px;
-        border: none;
-    }
-    .form-group textarea {
-        border-radius: 10px;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-    .botonSubmit {
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .botonSubmit input {
-        height: 90%;
-        width: 55%;
-        border-radius: 10px;
-        border: none;
-    }
-    .botonSubmit input:hover {
-        cursor: pointer;
-    }
-    /*-------SECCION CONTACTO-------*/
 
 }
 
@@ -1870,6 +1837,7 @@ a,li:hover {
         margin-left: 20px;
         margin-right: 20px;
         transition: all 0.3s  ease-in-out;
+        
     }
 
     /* ICONOS DEL MENÚ*/
@@ -1883,6 +1851,10 @@ a,li:hover {
         height: 70vh; /*Cambiar a auto*/
         width: 100%;
         margin-top: 5vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     #foto_sergio {
         width: 60vh; /* Establece el ancho y el alto iguales */
@@ -1891,7 +1863,7 @@ a,li:hover {
     
     #divText {
         width: 45%;
-        margin-left: 0%;
+        margin-left: -15%;
     }
 
     #titulo_principal #tit {
@@ -1954,40 +1926,46 @@ a,li:hover {
     .radio-inputs {
         width: 30%;
         font-size: 18px; 
-        
-    
     }
     
-    .card_individual, .educacion_tarjeta  {
-        width: 50%;
+    .cabecera_proy {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        margin-top: 15px;
     }
-    
+    .card_individual, .educacion_tarjeta, .card_grupal {
+        width: 40%;
+    }
     
     .cuerpo_proy {
         font-size: 1rem;
-        padding: 15px;
+        padding: 20px;
     }
     .tituloDiv {
         font-size: 1.2rem;
     }
     
     .lenguajes_utilizados h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .iconos img {
-        width: 10%;
-        height: 10%;
-        min-width: 10%;
-        max-width: 10%;
-        margin-right: 10px;
+        width: 8%;
+        height: 8%;
+        min-width: 8%;
+        max-width: 8%;
+        margin-right: 12px;
     }
    
     
     .botones_live_github button {
-        height: 40px;
-        width: 90px;
-        font-size: 0.95rem;
+        height: 45px;
+        width: auto;
+        font-size: 1rem;
     }
     /*----SECCION PROYECTOS----*/
    
@@ -2015,15 +1993,43 @@ a,li:hover {
     /*----SECCION EDUCACION----*/
     /*-------SECCION CONTACTO-------*/
 
+    
+     #contacto_seccion h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
     #formulario {
-        width: 50%;
+        height: auto;
+        width: 45%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 35px;
+        
+
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    }
+    .form-group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
     .form-group label {
-        margin-bottom: 10px;
-        font-size: 1.1rem;
+        margin-bottom: 5px;
     }
     .form-group input {
-        height: 40px;
+        height: 35px;
         padding: 10px;
         width: 100%;
         border-radius: 10px;
@@ -2036,21 +2042,289 @@ a,li:hover {
         padding: 10px;
     }
     .botonSubmit {
-      
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .botonSubmit input {
-        margin-top: 20px;
         height: 95%;
-        width: 50%;
+        width: 25%;
         border-radius: 10px;
         border: none;
     }
     .botonSubmit input:hover {
         cursor: pointer;
     }
-    /*-------SECCION CONTACTO-------*/
+/*-------SECCION CONTACTO-------*/
+}
+
+@media screen and (min-width:1440px) {
+    /* ICONOS DEL MENÚ*/
+    body {
+        max-width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu i {
+       font-size: 2rem;
+       margin-left: 20px;
+       margin-right: 20px;
+       transition: all 0.3s  ease-in-out;
+   }
+
+   /* ICONOS DEL MENÚ*/
+
+   /*--------SECCIÓN SOBRE MI---------*/
+
+   #card_sobre_mi {
+       height: auto; /*Cambiar a auto*/
+       width: 100%;
+       margin-top: 10vh; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   #foto_sergio {
+       width: 55vh; /* Establece el ancho y el alto iguales */
+       height: 55vh; /* Establece el ancho y el alto iguales */
+   }
+   
+   
+   #divText {
+       width: 45%;
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+
+   #titulo_principal #tit {
+       font-size: 3.5rem;
+   }
+   #titulo_secundario #tit2 {
+       font-size: 2.2rem;
+   }
+   .socialicon {
+       font-size: 40px;
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   #div_texto_imagen {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+       width: 100%;
+       height: auto;
+   }
+   #card_about {
+       width: 85%;
+       margin-top: 50vh;
+       padding: 20px;
+       font-size: 1.1rem;
+       
+   }
+   #divtext {
+       width: 60%;
+       height: auto;
+       font-size: 1.15rem;
+     
+   }
+   #ilustracion_sergio {
+       width: 50%;
+       height: 100%;
+       margin-top: auto;
+       margin-left: 5%;      
+   }
+   
+
+   #botonCurriculum {
+      font-size: 1.1rem;
+   }
+   #botonCurriculum {
+       font-size: 1rem;
+   }
+   #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3, #proyectos h3 {
+       font-size: 2rem;
+   }
+   .lang_container {
+    height: auto;
+    width: 50%;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Espaciado uniforme entre elementos */
+    cursor: pointer;
+}
+
+    .container {
+        flex-basis: 100%;
+        flex-grow: 1; 
+        max-width: 110px; 
+        max-height: 110px;
+        margin: 10px; 
+        height: auto;
+        width: 20px;
+        -webkit-animation: fade-in-bck 1s ease-in-out ;
+        animation: fade-in-bck 1s ease-in-out ;
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+        padding: 10px;
+    }   
+    .container img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+   
+   /*--------SECCIÓN SOBRE MI---------*/
+
+   /*--------SECCIÓN PROYECTOS--------*/
+
+   .agrupacion{
+       height: 20vh;
+   }
+   .radio-inputs {
+       width: 15%;
+       font-size: 18px; 
+   }
+   
+   .cabecera_proy {
+       width: 90%;
+       height: 100%;
+       margin: auto;
+       max-width: 100%;
+       max-height: 100%;
+       object-fit: cover;
+       margin-top: 15px;
+   }
+   .card_individual, .educacion_tarjeta, .card_grupal {
+       width: 40%;
+   }
+   
+   .cuerpo_proy {
+       font-size: 1.1rem;
+       padding: 20px;
+   }
+   .tituloDiv {
+       font-size: 1.4rem;
+   }
+   
+   .lenguajes_utilizados h4 {
+       font-size: 1.3rem;
+   }
+   
+   .iconos img {
+       width: 8%;
+       height: 8%;
+       min-width: 8%;
+       max-width: 8%;
+       margin-right: 12px;
+   }
+  
+   
+   .botones_live_github button {
+       height: 45px;
+       width: auto;
+       font-size: 1rem;
+   }
+   /*----SECCION PROYECTOS----*/
+  
+   /*----SECCION EDUCACION----*/
+  
+
+   .cabecera {
+       height: 45%;
+       width: 75%;
+       background-color: #f8f9fa;
+   }
+   .cuerpo {
+       font-size: 1.1rem;
+   }
+   .time {
+       font-size: 1.1rem;
+   }
+   .position {
+       font-size: 1.1rem;
+   }
+   .institution {
+       font-size: 1.05rem;
+   }
+   .institution,.place {
+       font-size: 1.05rem;
+   }
+   /*----SECCION EDUCACION----*/
+   /*-------SECCION CONTACTO-------*/
+
+   
+    #contacto_seccion h3 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 20px;
+       text-align: center;
+   }
+   #formulario {
+       height: auto;
+       width: 35%;
+       margin: auto;
+       margin-top: 25px;
+       padding: 35px;
+       
+
+       background: rgba(252, 251, 251, 0.166);
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       backdrop-filter: blur( 12.5px );
+       -webkit-backdrop-filter: blur( 12.5px );
+       border-radius: 10px;
+       border: 1px solid rgba(255, 255, 255, 0.277);
+   }
+   .form-group {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: start;
+       align-items: start;
+       flex-direction: column;
+       margin-bottom: 20px;
+   }
+   .form-group label {
+       margin-bottom: 5px;
+   }
+   .form-group input {
+       height: 35px;
+       padding: 10px;
+       width: 100%;
+       border-radius: 10px;
+       border: none;
+   }
+   .form-group textarea {
+       border-radius: 10px;
+       width: 100%;
+       height: auto;
+       padding: 10px;
+   }
+   .botonSubmit {
+       height: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .botonSubmit input {
+       height: 95%;
+       width: 25%;
+       border-radius: 10px;
+       border: none;
+   }
+   .botonSubmit input:hover {
+       cursor: pointer;
+   }
+/*-------SECCION CONTACTO-------*/
 }
