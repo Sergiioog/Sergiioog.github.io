@@ -2147,7 +2147,7 @@ a,li:hover {
    #botonCurriculum {
        font-size: 1rem;
    }
-   #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3, #proyectos h3 {
+   #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #eductit, #proytit{
        font-size: 2rem;
    }
    .lang_container {
