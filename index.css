@@ -976,8 +976,8 @@ a,li:hover {
         font-size: 1.1rem;
     }
     #ilustracion_sergio {
-        width: 60%;
-        height: 60%;
+        width: 40%;
+        height: 40%;
         margin: auto;
         margin-top: 20px;
     }
@@ -1047,7 +1047,7 @@ a,li:hover {
     
     
     .cuerpo_proy {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .tituloDiv {
         font-size: 1.2rem;
@@ -1080,7 +1080,7 @@ a,li:hover {
         background-color: #f8f9fa;
     }
     .cuerpo {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .time {
         font-size: 1.1rem;
@@ -1095,6 +1095,72 @@ a,li:hover {
         font-size: 1.05rem;
     }
     /*----SECCION EDUCACION----*/
+    /*-------SECCION CONTACTO-------*/
+
+    
+    #contacto_seccion h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #formulario {
+        height: auto;
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 35px;
+        
+
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    }
+    .form-group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        height: 30px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    .form-group textarea {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .botonSubmit {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonSubmit input {
+        height: 85%;
+        width: 30%;
+        border-radius: 10px;
+        border: none;
+    }
+    .botonSubmit input:hover {
+        cursor: pointer;
+    }
+/*-------SECCION CONTACTO-------*/
 
 }
 
@@ -1119,6 +1185,10 @@ a,li:hover {
         height: 70vh; /*Cambiar a auto*/
         width: 100%;
         margin-top: 5vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     #foto_sergio {
         width: 60vh; /* Establece el ancho y el alto iguales */
@@ -1127,7 +1197,7 @@ a,li:hover {
     
     #divText {
         width: 45%;
-        margin-left: 0%;
+        margin-left: -15%;
     }
 
     #titulo_principal #tit {
@@ -1190,39 +1260,46 @@ a,li:hover {
     .radio-inputs {
         width: 30%;
         font-size: 18px; 
-        
-    
     }
     
-    .card_individual, .educacion_tarjeta  {
-        width: 50%;
+    .cabecera_proy {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        margin-top: 15px;
     }
-    
+    .card_individual, .educacion_tarjeta, .card_grupal {
+        width: 40%;
+    }
     
     .cuerpo_proy {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        padding: 20px;
     }
     .tituloDiv {
         font-size: 1.2rem;
     }
     
     .lenguajes_utilizados h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .iconos img {
-        width: 13%;
-        height: 13%;
-        min-width: 13%;
-        max-width: 13%;
-        margin-right: 10px;
+        width: 8%;
+        height: 8%;
+        min-width: 8%;
+        max-width: 8%;
+        margin-right: 12px;
     }
    
     
     .botones_live_github button {
-        height: 40px;
-        width: 80px;
-        font-size: 0.9rem;
+        height: 45px;
+        width: auto;
+        font-size: 1rem;
     }
     /*----SECCION PROYECTOS----*/
    
@@ -1233,7 +1310,7 @@ a,li:hover {
         background-color: #f8f9fa;
     }
     .cuerpo {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .time {
         font-size: 1.1rem;
@@ -1248,4 +1325,70 @@ a,li:hover {
         font-size: 1.05rem;
     }
     /*----SECCION EDUCACION----*/
+    /*-------SECCION CONTACTO-------*/
+
+    
+     #contacto_seccion h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #formulario {
+        height: auto;
+        width: 45%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 35px;
+        
+
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    }
+    .form-group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        height: 35px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    .form-group textarea {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .botonSubmit {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonSubmit input {
+        height: 95%;
+        width: 25%;
+        border-radius: 10px;
+        border: none;
+    }
+    .botonSubmit input:hover {
+        cursor: pointer;
+    }
+/*-------SECCION CONTACTO-------*/
 }
