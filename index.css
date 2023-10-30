@@ -1826,7 +1826,76 @@ a,li:hover {
         font-size: 1.05rem;
     }
     /*----SECCION EDUCACION----*/
+    /*-------SECCION CONTACTO-------*/
 
+    #contacto_seccion {
+        height: auto;
+        width: 100%;
+
+    }
+    #contacto_seccion h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #formulario {
+        height: auto;
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 35px;
+        
+
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    }
+    .form-group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        height: 30px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    .form-group textarea {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .botonSubmit {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonSubmit input {
+        height: 90%;
+        width: 35%;
+        border-radius: 10px;
+        border: none;
+    }
+    .botonSubmit input:hover {
+        cursor: pointer;
+    }
+/*-------SECCION CONTACTO-------*/
 }
 
 @media screen and (min-width:1024px) and (max-width:1440px) {
@@ -2206,7 +2275,7 @@ a,li:hover {
        margin-top: 15px;
    }
    .card_individual, .educacion_tarjeta, .card_grupal {
-       width: 40%;
+       width: 60%;
    }
    
    .cuerpo_proy {
@@ -2326,5 +2395,52 @@ a,li:hover {
    .botonSubmit input:hover {
        cursor: pointer;
    }
+
+   .radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background: rgba(252, 251, 251, 0.166);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 30%;
+    font-size: 20px;
+    height: auto;
+   
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .2rem .2rem;
+    color: black;
+    font-weight: 500;
+    transition: all .15s ease-in-out;
+  }
+  
+  .radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: bold;
+  }
 /*-------SECCION CONTACTO-------*/
 }
