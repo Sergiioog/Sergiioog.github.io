@@ -1460,16 +1460,17 @@ a,li:hover {
        height: auto;
    }
    #card_about {
-       width: 75%;
+       width: 85%;
        margin-top: 50vh;
        padding: 20px;
        font-size: 1.1rem;
+       
    }
    #divtext {
        width: 60%;
        height: auto;
        font-size: 1.15rem;
-   
+     
    }
    #ilustracion_sergio {
        width: 50%;
