@@ -1700,26 +1700,24 @@ a,li:hover {
         margin-right: 15px;
     }
     #card_about {
-        width: 85%;
+        width: 70%;
         margin-top: 50vh;
         padding: 30px;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     #ilustracion_sergio {
-        width: 40%;
-        height: 40%;
+        width: 70%;
+        height: 70%;
         margin: auto;
         margin-top: 20px;
     }
 
+   
     #botonCurriculum {
-       font-size: 1rem;
-    }
-    #botonCurriculum {
-        font-size: 1rem;
+        font-size: 0.8rem;
      }
     #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .lang_container {
         height: auto;
@@ -1738,7 +1736,7 @@ a,li:hover {
         max-height: 110px;
         margin: 10px; 
         height: auto;
-        width: 20px;
+        width: 10%;
         -webkit-animation: fade-in-bck 1s ease-in-out ;
         animation: fade-in-bck 1s ease-in-out ;
         background: rgba(252, 251, 251, 0.166);
@@ -1748,6 +1746,7 @@ a,li:hover {
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.277);
         padding: 10px;
+        /*REVISAR*/
     }   
     .container img {
         width: 100%;
@@ -1762,17 +1761,17 @@ a,li:hover {
         height: 20vh;
     }
     #proyectos, h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .radio-inputs {
-        width: 30%;
-        font-size: 18px; 
+        width: 35%;
+        font-size: 1rem; 
         
     
     }
     
     .card_individual, .educacion_tarjeta  {
-        width: 50%;
+        width: 65%;
     }
     
     
@@ -1781,7 +1780,7 @@ a,li:hover {
         padding: 15px;
     }
     .tituloDiv {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
     .lenguajes_utilizados h4 {
@@ -1789,10 +1788,10 @@ a,li:hover {
     }
     
     .iconos img {
-        width: 13%;
-        height: 13%;
-        min-width: 13%;
-        max-width: 13%;
+        width: 15%;
+        height: 15%;
+        min-width: 15%;
+        max-width: 15%;
         margin-right: 10px;
     }
    
@@ -1811,19 +1810,17 @@ a,li:hover {
         background-color: #f8f9fa;
     }
     .cuerpo {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .time {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .position {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
-    .institution {
-        font-size: 1.05rem;
-    }
+   
     .institution,.place {
-        font-size: 1.05rem;
+        font-size: 0.95rem;
     }
     /*----SECCION EDUCACION----*/
     /*-------SECCION CONTACTO-------*/
