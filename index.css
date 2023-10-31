@@ -1981,6 +1981,40 @@ a,li:hover {
     #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3, #formulario h3 {
         font-size: 1.9rem;
     }
+    .lang_container {
+        height: auto;
+        width: 50%;
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Espaciado uniforme entre elementos */
+        cursor: pointer;
+    }
+    
+        .container {
+            flex-basis: 100%;
+            flex-grow: 1; 
+            max-width: 110px; 
+            max-height: 110px;
+            margin: 10px; 
+            height: auto;
+            width: 20px;
+            -webkit-animation: fade-in-bck 1s ease-in-out ;
+            animation: fade-in-bck 1s ease-in-out ;
+            background: rgba(252, 251, 251, 0.166);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 12.5px );
+            -webkit-backdrop-filter: blur( 12.5px );
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.277);
+            padding: 10px;
+        }   
+        .container img {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+       
     
     /*--------SECCIÓN SOBRE MI---------*/
 
@@ -2342,7 +2376,7 @@ a,li:hover {
    }
    #formulario {
        height: auto;
-       width: 35%;
+       width: 45%;
        margin: auto;
        margin-top: 25px;
        padding: 35px;
