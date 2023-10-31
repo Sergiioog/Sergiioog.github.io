@@ -1628,6 +1628,276 @@ a,li:hover {
 /*-------SECCION CONTACTO-------*/
 
 }
+@media screen and (min-width:425px) and (max-width:768px) {
+    
+
+    /* ICONOS DEL MENÚ*/
+
+    .menu i {
+        font-size: 1.5rem;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition: all 0.3s  ease-in-out;
+    }
+
+    /* ICONOS DEL MENÚ*/
+
+
+
+
+    /*--------SECCIÓN SOBRE MI---------*/
+
+    #card_sobre_mi {
+        height: auto; /*Cambiar a auto*/
+        width: 90%;
+        margin:auto;
+        margin-top: 10vh; /*Margin top*/
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #foto_sergio {
+        
+        background: rgba(5, 28, 89, 0.4);
+        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+        backdrop-filter: blur(12.5px);
+        -webkit-backdrop-filter: blur(12.5px);
+        border: 1.5px solid rgba(255, 246, 246, 0.837);
+        background: rgba(5, 28, 89, 0.4);
+        width: 40vh; /* Establece el ancho y el alto iguales */
+        height: 40vh; /* Establece el ancho y el alto iguales */
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%; /* Hace que el contenedor sea un círculo */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    #divText {
+        width: 50%;
+        height: auto;
+        display: flex;
+        margin-left: 5%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #titulo_principal #tit {
+        font-size: 2.4rem;
+    }
+    #titulo_secundario #tit2 {
+        font-size: 1.4rem;
+    }
+    .socialicon {
+        font-size: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #card_about {
+        width: 85%;
+        margin-top: 50vh;
+        padding: 30px;
+        font-size: 1.1rem;
+    }
+    #ilustracion_sergio {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #botonCurriculum {
+       font-size: 1rem;
+    }
+    #botonCurriculum {
+        font-size: 1rem;
+     }
+    #lenguages h3, #frameworks h3, #control_versiones h3, #contacto_seccion h3, #educacion h3 {
+        font-size: 1.8rem;
+    }
+    .lang_container {
+        height: auto;
+        width: 70%;
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Espaciado uniforme entre elementos */
+        cursor: pointer;
+    }
+    
+    .container {
+        flex-basis: 100%;
+        flex-grow: 1; 
+        max-width: 110px; 
+        max-height: 110px;
+        margin: 10px; 
+        height: auto;
+        width: 20px;
+        -webkit-animation: fade-in-bck 1s ease-in-out ;
+        animation: fade-in-bck 1s ease-in-out ;
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+        padding: 10px;
+    }   
+    .container img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    /*--------SECCIÓN SOBRE MI---------*/
+
+    /*--------SECCIÓN PROYECTOS--------*/
+
+    .agrupacion{
+        height: 20vh;
+    }
+    #proyectos, h3 {
+        font-size: 1.8rem;
+    }
+    .radio-inputs {
+        width: 30%;
+        font-size: 18px; 
+        
+    
+    }
+    
+    .card_individual, .educacion_tarjeta  {
+        width: 50%;
+    }
+    
+    
+    .cuerpo_proy {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+    .tituloDiv {
+        font-size: 1.2rem;
+    }
+    
+    .lenguajes_utilizados h4 {
+        font-size: 1rem;
+    }
+    
+    .iconos img {
+        width: 13%;
+        height: 13%;
+        min-width: 13%;
+        max-width: 13%;
+        margin-right: 10px;
+    }
+   
+    
+    .botones_live_github button {
+        height: 40px;
+        width: 80px;
+        font-size: 0.9rem;
+    }
+    /*----SECCION PROYECTOS----*/
+   
+    /*----SECCION EDUCACION----*/
+    .cabecera {
+        height: 35%;
+        width: 75%;
+        background-color: #f8f9fa;
+    }
+    .cuerpo {
+        font-size: 1rem;
+    }
+    .time {
+        font-size: 1.1rem;
+    }
+    .position {
+        font-size: 1.1rem;
+    }
+    .institution {
+        font-size: 1.05rem;
+    }
+    .institution,.place {
+        font-size: 1.05rem;
+    }
+    /*----SECCION EDUCACION----*/
+    /*-------SECCION CONTACTO-------*/
+
+    #contacto_seccion {
+        height: auto;
+        width: 100%;
+
+    }
+    #contacto_seccion h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #formulario {
+        height: auto;
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+        padding: 35px;
+        
+
+        background: rgba(252, 251, 251, 0.166);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 12.5px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.277);
+    }
+    .form-group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        height: 30px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    .form-group textarea {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .botonSubmit {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonSubmit input {
+        height: 90%;
+        width: 35%;
+        border-radius: 10px;
+        border: none;
+    }
+    .botonSubmit input:hover {
+        cursor: pointer;
+    }
+/*-------SECCION CONTACTO-------*/
+}
+
 
 @media screen and (min-width:768px) and (max-width:1024px) {
     
